@@ -1,0 +1,27 @@
+<head>
+    <script type="text/javascript">
+
+        window.onload = function() {
+            document.getElementById("score1").innerHTML="Score: 0";
+            document.getElementById("score2").innerHTML="Score: 0";
+            document.getElementById("a").style.display="none";
+        }
+        
+        </script>
+
+</head>
+<body>
+    <center>
+        <h1>The Quiz!</h1>
+        <h2 id="score1"></h2>
+        <h2 id="score2"></h2>
+        <h2 id="q"></h2>
+        <input type="text" id="a" placeholder="Answer">
+        <input type="text" id="qs" placeholder="Your opponent's question">
+        <input type="text" id="qsa" placeholder="And the answer to the above question?">
+        <h2 id="ca"></h2>
+        <button onclick="switchf()">Submit</button>
+    </center>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</body>
